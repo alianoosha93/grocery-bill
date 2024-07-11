@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Grocery Bill Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>Grocery Bill Calculator</h1>
+<div>
+    <label for="item">Item:</label>
+    <input type="text" id="item" placeholder="Enter item name">
+    <label for="price">Price:</label>
+    <input type="number" id="price" placeholder="Enter item price">
+    <label for="quantity">Quantity:</label>
+    <input type="number" id="quantity" placeholder="Enter quantity in kg">
+    <br>
+    <br>
+    <button onclick="addItem()">Add Item</button>
+</div>
+<br>
+<!-- <div id="bill"></div> -->
+
+
+<div class="card">
+    <h1>Grocery Bill Calculator</h1>
+    <div class="bill" id="bill">
+        <!--  bill items will be dynamically added here -->
+    </div>
+    
+</div>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* background-color: #f9f9f9; */
+    padding: 20px;
+    background-image: url(image.1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100% ;
+    background-attachment: fixed;
+
+}
+
+
+
+h1 {
+    color: #4d2b09d3;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 30%;
+    padding: 8px;
+    margin: 5px 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.856);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #6d3508d0;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+margin: 20 auto;
+}
+    
+
+button:hover {
+    background-color: #bd891bf3;
+}
+
+/* background-color: #0056b3; */
+
+.card {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.856);
+    padding: 20px;
+    text-align: left;
+}
+
+h1 {
+    color: #000000f5;
+    margin-bottom: 20px;
+}
+
+.bill-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.total {
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 30px;
+    border-top: 2px solid #02060a;
+    padding-top: 10px;
+}
+
